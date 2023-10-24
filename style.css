@@ -1,0 +1,129 @@
+
+
+body{
+    background-color: rgb(158, 96, 183);
+}
+
+.container{
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    background-color: antiquewhite;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+
+input{
+    margin: 20px;
+    height: 50px;
+    width: 400px;
+    border-radius: 10px;
+    border-style: ridge;
+    
+}
+
+.title{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 32px;
+}
+
+input,
+input::placeholder {
+    font-size: 20px;
+  
+}
+.submit{
+    margin: 20px;
+    height: 55px;
+    width: 100px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: rgb(208, 177, 177);
+    border-style: ridge;
+}
+
+.submit:hover {
+    background-color: #e74fd0;
+    color: white;
+  }
+
+.to-do-list{
+    width: 55%;
+    margin: auto;
+    margin-top: 20px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
+
+li{
+    margin: 20px;
+    font-size: 30px;
+  
+}
+
+.list{
+    margin-top: 10px;
+
+}
+
+.button-2{
+    position: absolute;
+    left: 1000px;
+    margin: 6px;
+    background-color: rgb(235, 68, 68);
+    border: none;
+    border-radius: 2px;
+}
+.button-1{
+    position: absolute;
+    left: 930px;
+    margin: 6px;
+    width: 65px;
+    border: none;
+    border-radius: 2px;
+}
+
+.checked{
+    background-color: rgb(162, 249, 31);
+
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 90%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    input {
+        width: 90%;
+    }
+
+    .submit {
+        width: 90%;
+    }
+    
+    .button-1, .button-2 {
+        position: static;
+        width: 70%;
+    }
+
+
+
+    li{
+       margin: 0;
+       overflow: hidden;
+    }
+}
+
+
+
+
+
+
+
